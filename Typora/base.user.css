@@ -1,0 +1,18 @@
+#typora-source {
+  font-family: "Noto Serif CJK SC", serif;
+  font-size: inherit;
+  --monospace: Monego;
+}
+
+#write {
+  font-family: "Noto Serif CJK SC", serif;
+}
+
+#write code, #write pre {
+  font-family: Monego, "Courier New", monospace;
+}
+
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6 {
+  /* font-family: "Noto Sans SC", sans-serif; */
+  font-family: "Noto Serif SC SemiBold", serif;
+}
