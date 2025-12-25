@@ -40,11 +40,11 @@ function prompt {
     $gitColor = "Cyan"
 
     # 输出提示符
+    Write-Host "[" -NoNewline -ForegroundColor "White"
     Write-Host "$user" -NoNewline -ForegroundColor $userColor
-    Write-Host " " -NoNewline -ForegroundColor $symbolColor
+    Write-Host "] " -NoNewline -ForegroundColor $symbolColor
     Write-Host "$currentFolder "  -NoNewline -ForegroundColor $folderColor
     Write-Host "$gitBranch" -NoNewline -ForegroundColor $gitColor
-    Write-Host "$"  -NoNewline -ForegroundColor "White"
-    return " "
+    # Write-Host " "  -NoNewline -ForegroundColor "White"
+    return "> "
 }
-
